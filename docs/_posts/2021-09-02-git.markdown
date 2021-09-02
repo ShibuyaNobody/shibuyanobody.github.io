@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Blog 0 - Git"
+date:
+categories: Git Blog
+---
+
+# Introduction to Git
+What is Git? Git is a piece of software that allows you to track changes in any set of files. It's typically used to coordinate work among programmers who are working on source code together throughout the creation of software. Speed, data integrity, and support for dispersed, non-linear workflows are among the objectives.
+
+# Introduction to GitHub
+Now, what is GitHub? And what is it used for? GitHub, Inc. is an Internet hosting company that specializes on Git-based software development and version control. It includes Git's distributed version control and source code management functions, as well as its own.
+
+# Git Commands
+For this class we learned a number of git commands, which also happen to be the commonly used commands for git.
+
+`git status` shows the current state of the working directory.
+
+`git add` adds modifications made to the staging area from the working directory.
