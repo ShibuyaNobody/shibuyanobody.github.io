@@ -15,9 +15,6 @@ layout: home
                 margin-right: auto;
                 width: 50%;
             }
-      h1 {
-        margin: center;
-      }
     </style>
   </head>
   <body>
