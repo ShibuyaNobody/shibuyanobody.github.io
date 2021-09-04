@@ -8,8 +8,20 @@ layout: home
   <head>
     <meta charset="utf-8">
     <title>CIT480 Blog</title>
+    <style>
+      .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+      h1 {
+        margin: center;
+      }
+    </style>
   </head>
   <body>
+    <img src="Annoying_Dog_sprite.gif" class="center">
     <h1>Welcome to my CIT480 Blog!</h1>
   </body>
 </html>
