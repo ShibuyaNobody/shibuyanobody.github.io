@@ -4,24 +4,16 @@ title: "Blog 0 - Git"
 date: 2021-09-01 17:16:00 -0700
 categories: Git Blog
 ---
-<html>
-    <head>
-        <title>Blog 0 - Git</title>
-    </head>
-    <body>
-        <div>
-            <h1>Introduction to Git</h1>
-            <p>What is Git? Git is a piece of software that allows you to track changes in any set of files. It's typically used to coordinate work among programmers who are working on source code together throughout the creation of software. Speed, data integrity, and support for dispersed, non-linear workflows are among the objectives.</p>
 
-            <h2>Introduction to GitHub</h2>
-            <p>Now, what is GitHub? And what is it used for? GitHub, Inc. is an Internet hosting company that specializes on Git-based software development and version control. It includes Git's distributed version control and source code management functions, as well as its own.</p>
+# Introduction to Git
+What is Git? Git is a piece of software that allows you to track changes in any set of files. It's typically used to coordinate work among programmers who are working on source code together throughout the creation of software. Speed, data integrity, and support for dispersed, non-linear workflows are among the objectives.
 
-            # Git Commands
-            For this class we learned a number of git commands, which also happen to be the commonly used commands for git.
+# Introduction to GitHub
+Now, what is GitHub? And what is it used for? GitHub, Inc. is an Internet hosting company that specializes on Git-based software development and version control. It includes Git's distributed version control and source code management functions, as well as its own.</p>
 
-            `git status` shows the current state of the working directory.
+# Git Commands
+For this class we learned a number of git commands, which also happen to be the commonly used commands for git.
 
-            `git add` adds modifications made to the staging area from the working directory.
-        </div>
-    </body>
-</html>
+`git status` shows the current state of the working directory.
+
+`git add` adds modifications made to the staging area from the working directory.
