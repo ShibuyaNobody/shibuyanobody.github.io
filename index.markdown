@@ -15,10 +15,16 @@ layout: home
                 margin-right: auto;
                 width: 50%;
             }
+      h1 {
+        text-align: center;
+      }
+      body {
+        background-color: #5b5b5a;
+      }
     </style>
   </head>
   <body>
-    <img src="Annoying_Dog_sprite.gif" class="center">
+    <img src="1z4FBfS.gif" class="center">
     <h1>Welcome to my CIT480 Blog!</h1>
   </body>
 </html>
