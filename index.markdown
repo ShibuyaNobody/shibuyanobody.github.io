@@ -10,11 +10,11 @@ layout: home
     <title>CIT480 Blog</title>
     <style>
       .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-            }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
       h1 {
         text-align: center;
       }
