@@ -9,6 +9,14 @@ layout: home
     <meta charset="utf-8">
     <title>CIT480 Blog</title>
     <style>
+      body {
+        background-color: #eeeeee;
+        background-image: url(img/n2sj8ochlfk61.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #eeeeee;
+      }
       .center {
         display: block;
         margin-left: auto;
@@ -17,14 +25,20 @@ layout: home
       }
       h1 {
         text-align: center;
+        color: grey;
       }
-      body {
-        background-color: #5b5b5a;
+      div {
+        background-color: #eeeeee;
+        border-radius: 10px;
+        /* box-shadow: 0px 0px 3px #000000; */
+        opacity: 0.95;
       }
     </style>
   </head>
   <body>
-    <img src="1z4FBfS.gif" class="center">
-    <h1>Welcome to my CIT480 Blog!</h1>
+    <div>
+      <img src="img/1z4FBfS.gif" class="center">
+      <h1>Welcome to my CIT480 Blog!</h1>
+    </div>
   </body>
 </html>
