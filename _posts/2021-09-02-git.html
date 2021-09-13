@@ -33,19 +33,42 @@ categories: Git Blog
         opacity: 0.95;
         padding: 20px;
       }
+      i {
+        background-color: lightgrey;
+        padding: 2px 5px 2px 5px;
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
     <div>
         <img src="https://pbs.twimg.com/media/EnyipKAXMAA8096.png" class="center">
+
         <h1>Introduction to Git</h1>
-        <p>What is Git? Git is a piece of software that allows you to track changes in any set of files. It's typically used to coordinate work among programmers who are working on source code together throughout the creation of software. Speed, data integrity, and support for dispersed, non-linear workflows are among the objectives.</p>
+          <p>What is Git? Git is a piece of software that allows you to track changes in any set of files. It's typically used to coordinate work among programmers who are working on source code together throughout the creation of software. Speed, data integrity, and support for dispersed, non-linear workflows are among the objectives.</p>
         <h1>Introduction to GitHub</h1>
-        <p>Now, what is GitHub? And what is it used for? GitHub, Inc. is an Internet hosting company that specializes on Git-based software development and version control. It includes Git's distributed version control and source code management functions, as well as its own.</p>
+          <p>Now, what is GitHub? And what is it used for? GitHub, Inc. is an Internet hosting company that specializes on Git-based software development and version control. It includes Git's distributed version control and source code management functions, as well as its own.</p>
         <h1>Git Commands</h1>
-        <p>For this class we learned a number of git commands, which also happen to be the commonly used commands for git.</p>
-        <p>`git status` shows the current state of the working directory.</p>
-        <p>`git add` adds modifications made to the staging area from the working directory.</p>
+          <p>For this class we learned a number of git commands, which also happen to be the commonly used commands for git.</p>
+          <ul>
+              <li><p><i>git status</i> shows the current state of the working directory.</p></li>
+
+              <li><p><i>git add</i> adds modifications made to the staging area from the working directory.</p></li>
+
+              <li><p><i>git commit</i> is the command that captures a snapshot of the project's currently staged changes, and we usually want to append it with <i>-m</i> to add a comment afterwards, which will then show up on GitHub with the file. You usually want the comment to be a brief description of the changes you made to the file.</p></li>
+
+              <li><p><i>git push</i> is the command that is used to upload your local repository to a remote repository, which in this case basically means from your personal terminal to somewhere like GitHub.</p></li>
+          </ul>
+          <p>These set of commands are usually the process you would follow to push over new code into GitHub. You normally want to do a <i>git status</i> just to make sure that the changes pop up, then a <i>git branch</i>, which I will talk about in the next set of commands, and then follow it up with <i>git add .</i>, <i>git commit -m "comment here"</i>, <i>and git push</i>.</p>
+
+          <p>These next set of commands are usually what you want to perform when starting on a new project, or when making edits to current files you have.</p>
+          <ul>
+            <li><i>git branch</i> will display the current branch you are in and also the other branches that you have on your system, or working directory.</li>
+            <li><i>git checkout -b</i> is the command used when making a new branch. Normally, after the <i>-b</i> you will want to put the name of the branch you wish to make. You normally do not want to add spaces to branch names. It is best to append them with a <i>-</i></li>
+            <li><i>git pull</i> is used to get the new information that has been loaded into the repository you are working from, but normally you want to do this when you are on <i>main/master</i> to add all new information that has been pushed.</li>
+            <li><i>git branch -d</i> is the command that is used when deleting branches. You normally want to do this to have a clean directory, but only delete the branch after you have merged your changes to GitHub and pulled from main.</li>
+            <li><i>git checkout</i> is the command that is used when switching between branches, as you would follow it with the branch name after that command.</li>
+          </ul>
     </div>
   </body>
 </html>
