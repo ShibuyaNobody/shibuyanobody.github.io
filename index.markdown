@@ -49,10 +49,12 @@ layout: home
   </head>
   <body>
     <!-- <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0"> -->
+    <audio
+      id="bark"
+   src="https://github.com/ShibuyaNobody/shibuyanobody.github.io/blob/main/undertale_dog_bark.mp3"
+    ></audio>
     <div>
-      <!-- <a onclick="myAudioFunction('A');> -->
-        <img src="img/1z4FBfS.gif" onclick="document.getElementById('undertale_dog_bark.mp3').play();">
-      <!-- </a> -->
+        <img src="img/1z4FBfS.gif" onclick="document.getElementById('bark').play();">
       <h1>Welcome to my CIT480 Blog!</h1>
     </div>
   </body>
