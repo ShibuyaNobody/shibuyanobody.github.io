@@ -22,6 +22,7 @@ categories: Git Blog
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        padding-bottom: 40px;
       }
       h1 {
         text-align: left;
@@ -46,6 +47,18 @@ categories: Git Blog
         text-align: center;
         color: #000000;
       }
+      #k9s {
+        float: right;
+        width: 50%;
+      }
+      #chart {
+        float: left;
+        width: 50%;
+        padding-right: 40px;
+      }
+      #logo {
+        float: right;
+      }
     </style>
   </head>
   <body>
@@ -53,9 +66,47 @@ categories: Git Blog
         <img src="https://pbs.twimg.com/media/EnyipKAXMAA8096.png" class="center">
 
         <!-- <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1> -->
-
+        <img src="https://neuvector.com/wp-content/uploads/2016/08/Kubernetes.png" id="logo">
         <h1>What is Kubernetes?</h1>
-        <p>Kubernetes (also known as K8s) is an open-source system for automating containerized application deployment, scaling, and administration. It can be utilized for large-scale web hosting or for data center outsourcing to public cloud service providers.</p>
+        <p>Kubernetes (also known as K8s) is an open-source system for automating containerized application deployment, scaling, and administration. It can be utilized for large-scale web hosting or for data center outsourcing to public cloud service providers. In other words, you may group together groups of hosts running Linux containers, and Kubernetes makes manageing those clusters simple and efficient.</p>
+
+        <h1>Containers</h1>
+        <p>Applications are decoupled from the underlying host architecture using containers. This simplifies deployment across a variety of cloud and operating system settings. Unlike virtual machines, Kubernetes containers are not limited to a single operating system. Instead, they can share operating systems and execute from any location.</p>
+        <ul>
+          <li>
+            <p><b>Container Images</b></p>
+            <p>A container image is a ready-to-run software package that includes everything a program needs to execute, including the code and any runtimes it requires, application and system libraries, and default values for any important settings.</p>
+            <p>A container is immutable by design, which means you can't change its code once it's running. If you want to make modifications to a containerized application, you must first generate a new image that incorporates the changes, then restart the container from the updated image.</p>
+          </li>
+          <li>
+            <p><b>Container Runtimes</b></p>
+            <p>The software that runs containers is known as the container runtime. Here are some of the container runtimes Kubernetes supports:</p>
+              <ul>
+                <li><a href="https://www.docker.com/">Docker</a></li>
+                <li><a href="https://containerd.io/">containerd</a></li>
+                <li><a href="https://github.com/cri-o/cri-o">CRI-O</a></li>
+              </ul>
+          </li>
+        </ul>
+
+        <h1>Clusters</h1>
+        <p>A Kubernetes cluster is a collection of machines that work together to run containerized applications. Containerizing apps encapsulates an app's dependencies as well as some essential services.</p>
+        <p>One master node and several worker nodes make up a Kubernetes cluster. Depending on the cluster, these nodes might be iether physical or virtual machines.</p>
+        <img src="https://storage.googleapis.com/cdn.thenewstack.io/media/2017/11/99e8df97-k8nodes1.png" id="chart">
+
+        <p>Here are some parts that make up a Kubernetes Cluster:</p>
+        <ul>
+          <li>API Server</li>
+          <li>Scheduler</li>
+          <li>Controller Manager</li>
+          <li>Kubelet</li>
+          <li>Kube-proxy</li>
+          <li>Etcd</li>
+        </ul>
+
+        <img src="https://k9scli.io/assets/k9s.png" id="k9s">
+        <h1>What is Kubernetes K9s?</h1>
+        <p>K9s is a command-line interface for interacting with Kubernetes clusters. It was designed to help make navigating, observing, and managing your deployed applications.</p>
     </div>
   </body>
 </html>
