@@ -34,11 +34,25 @@ layout: home
         opacity: 0.95;
       }
     </style>
+    <script>
+      var aAudio = new Audio('undertale_dog_bark.mp3')
+      var bAudio = new Audio('sqek.mp3')
+      // function myAudioFunction (letter) {
+      //   if(letter == 'a') {
+      //     aAudio.play();
+      //   }
+      //   else if (letter =='b') {
+      //     bAudio.play();
+      //   }
+      // }
+    </script>
   </head>
   <body>
-    <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0">
+    <!-- <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0"> -->
     <div>
-      <img src="img/1z4FBfS.gif" class="center">
+      <!-- <a onclick="myAudioFunction('A');> -->
+        <img src="img/1z4FBfS.gif" onclick="document.getElementById('undertale_dog_bark.mp3').play();">
+      <!-- </a> -->
       <h1>Welcome to my CIT480 Blog!</h1>
     </div>
   </body>
