@@ -36,7 +36,7 @@ layout: home
     </style>
   </head>
   <body>
-    <!-- <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0"> -->
+    <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0">
     <div>
       <img src="img/1z4FBfS.gif" class="center">
       <h1>Welcome to my CIT480 Blog!</h1>
