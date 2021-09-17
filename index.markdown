@@ -34,27 +34,12 @@ layout: home
         opacity: 0.95;
       }
     </style>
-    <script>
-      var aAudio = new Audio('undertale_dog_bark.mp3')
-      var bAudio = new Audio('sqek.mp3')
-      // function myAudioFunction (letter) {
-      //   if(letter == 'a') {
-      //     aAudio.play();
-      //   }
-      //   else if (letter =='b') {
-      //     bAudio.play();
-      //   }
-      // }
-    </script>
   </head>
   <body>
-    <!-- <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0"> -->
-    <audio
-      id="bark"
-   src="https://github.com/ShibuyaNobody/shibuyanobody.github.io/blob/main/undertale_dog_bark.mp3"
-    ></audio>
+    <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0">
+    <audio id="bark" src="undertale_dog_bark.mp3"></audio>
     <div>
-        <img src="img/1z4FBfS.gif" onclick="document.getElementById('bark').play();">
+        <img src="img/1z4FBfS.gif" onclick="document.getElementById('bark').play();" class="center">
       <h1>Welcome to my CIT480 Blog!</h1>
     </div>
   </body>
