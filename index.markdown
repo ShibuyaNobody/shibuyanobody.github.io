@@ -36,7 +36,10 @@ layout: home
     </style>
   </head>
   <body>
-    <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0">
+    <!-- <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0"> -->
+    <audio autoplay loop>
+      <source id="dogsong" src="DogSong.mp3"/>
+    </audio>
     <audio id="bark" src="undertale_dog_bark.mp3"></audio>
     <div>
         <img src="img/1z4FBfS.gif" onclick="document.getElementById('bark').play();" class="center">
