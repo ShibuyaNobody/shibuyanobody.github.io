@@ -2,12 +2,12 @@
 layout: post
 title: "Blog 2 - HTML"
 date: 2021-09-13 12:00:00 -0700
-categories: Git Blog
+categories: HTML Blog
 ---
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Blog 0</title>
+    <title>Blog 2</title>
     <style>
       body {
         background-color: #eeeeee;
@@ -37,13 +37,95 @@ categories: Git Blog
       .temp {
           text-align: center;
       }
+      i {
+        background-color: lightgrey;
+        padding: 2px 5px 2px 5px;
+        border-radius: 5px;
+      }
+      pre{
+        font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        margin-bottom: 5px;
+        overflow: auto;
+        width: auto;
+        padding: 5px;
+        /* background-color: #eee; */
+        width: 650px;
+        /* padding-bottom: 5px; */
+        max-height: 600px;
+      }
+      .sample {
+        width: 300px;
+        height: auto;
+        background-color: #000000;
+        border-radius: 20px;
+        float: right;
+      }
+      .htmllogo {
+        float: left;
+        width: 230px;
+        height: auto;
+      }
+      .finallogo {
+        width: 230px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
     </style>
   </head>
   <body>
     <div>
         <img src="https://pbs.twimg.com/media/EnyipKAXMAA8096.png" class="center">
 
-        <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1>
+        <!-- <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1> -->
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="htmllogo">
+        <h1>What is HTML?</h1>
+        <p><b>HTML</b> stands for <i>Hyper Text Markup Language</i>, and it is the core programming language used to render pages on the internet. A user can use HyperText to click a link and be redirected to a new page that the link refers to. Web browsers receive HTML documents from a web server or local storage and display them as multimedia web pages. HTML originally features cues for the document's aesthetic as well as semantic descriptions of a web page's structure.</p>
+
+        <p>Listed below is a basic HTML format:</p>
+
+        <blockquote>
+          <pre>
+            <code>
+              &lt;!DOCTYPE html>
+              &lt;html>
+                &lt;head>
+                  &lt;title>Insert title here&lt;/title>
+                  &lt;style>&lt;/style>
+                &lt;/head>
+                &lt;body>
+                  &lt;div>
+                    &lt;h1>Header&lt;/h1>
+                    &lt;p>Paragraphs&lt;/p>
+                  &lt;/div>
+                &lt;/body>
+              &lt;/html>
+            </code>
+          </pre>
+        </blockquote>
+
+        <img class="sample" src="https://content.codecademy.com/courses/learn-html/elements-and-structure/html%20lesson%20image.svg">
+        <h1>HTML Element Breakdown</h1>
+        <p>When creating an HTML document it is comprised of several elements. An HTML element is the combination of a tag and the material it contains. We can use a variety of tags to organize and display text and other forms of material, such as images.</p>
+        <ul>
+          <li><i>&lt;html>&lt;/html></i> - This element, often known as the root element, wraps all of the content on the page.</li>
+          <li><i>&lt;head>&lt;/head></i> - This element serves as a contaienr for whatever you want to put on your HTML page that isn't the content you're displaying to your page's visitors. Normally, this is the area where you would put the style and title tags.</li>
+            <ul>
+              <li><i>&lt;title>&lt;/title></i> - This determines the title of your page, which is displayed in the browser tab in which it is loaded. When you bookmark/favorite a page, it is also used to describe the page.</li>
+              <li><i>&lt;style>&lt;/style></i> - THe style HTML element specifies the style of a document. CSS is applied to the contents of the document containing the style element.</li>
+            </ul>
+          <li><i>&lt;body>&lt;/body></i> - This is where you put whatever you want to show web viewers when they visit your page, whether it's text, graphics, videos, games, playable audio files, or anything else.</li>
+            <ul>
+              <li><i>&lt;h1>&lt;/h1></i> - This tag is defined as the highest level of most essential heading in an HTML document and is defined by this element. This tag is normally used for heads. This tag can also go on as <i>&lt;h2>, &lt;h3>, and &lt;h4></i>, and the higher the number the smaller the header will get.</li>
+              <li><i>&lt;p>&lt;/p></i> - This tag is represented as the paragraph tag. In visual media, paragraphs are typically portrayed as blocks of text separated by blank lines and/or first-line indentation, whereas HTML paragraphs can be any structural grouping of related material, such as photos or form fields.</li>
+            </ul>
+        </ul>
+
+        <h1>Why is HTML important?</h1>
+        <p>HTML is important for a lot of reasons, especially during a time where the internet is a very popular and widespread thing that people use everyday. With HTML users and marketing groups are able to build websites to their liking, and to match their personality or product. The possibilities are endless. Since HTML is also supported by every browser it makes it accesible to many different platforms. Learning HTML is also pretty simple and almost anyone can pick it up and learn it as it is a sort of programming language that is very easy to understand. As long as you have the proper structure you are able to build your very own website.</p>
+        <img src="https://play-lh.googleusercontent.com/P5ZYmONNF6pgwbBx-zqQWdWnpgQH0S-RGmDRUHpy8CSeaLHLdIFlFiP6hpCAbp192A" class="finallogo">
     </div>
   </body>
 </html>
