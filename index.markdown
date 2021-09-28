@@ -25,7 +25,7 @@ layout: home
       }
       h1 {
         text-align: center;
-        color: grey;
+        color: #000000;
       }
       div {
         background-color: #eeeeee;
