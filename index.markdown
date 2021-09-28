@@ -52,7 +52,7 @@ layout: home
   </head>
   <body>
     <audio id="dogsong" autoplay loop onloadeddata="setHalfVolume()">
-      <source src="DogSong.mp3"/>
+      <source src="DogSong.mp3" type="audio/mp3">
     </audio>
     <audio id="bark" src="undertale_dog_bark.mp3"></audio>
     <div>
