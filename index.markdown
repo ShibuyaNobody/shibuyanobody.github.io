@@ -33,6 +33,15 @@ layout: home
         /* box-shadow: 0px 0px 3px #000000; */
         opacity: 0.95;
       }
+      a {
+        color: #000000;
+      }
+      a:visited {
+        color: #000000;
+      }
+      span.post-meta {
+        color: #000000;
+      }
     </style>
   </head>
   <body>
