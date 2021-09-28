@@ -46,7 +46,7 @@ layout: home
     <script>
       function setHalfVolume() {
         var myAudio = document.getElementById("dogsong");  
-        myAudio.volume = 20%;
+        myAudio.volume = .2;
       }
     </script>
   </head>
