@@ -43,11 +43,16 @@ layout: home
         color: #000000;
       }
     </style>
+    <script>
+      function setHalfVolume() {
+        var myAudio = document.getElementById("dogsong");  
+        myAudio.volume = 0.5;
+      }
+    </script>
   </head>
   <body>
-    <!-- <embed src="DogSong.mp3" loop="true" autostart="true" width="2" height="0"> -->
-    <audio autoplay loop>
-      <source id="dogsong" src="DogSong.mp3"/>
+    <audio id="dogsong" autoplay loop onloadeddata="setHalfVolume()">
+      <source src="DogSong.mp3"/>
     </audio>
     <audio id="bark" src="undertale_dog_bark.mp3"></audio>
     <div>
