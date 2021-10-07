@@ -16,6 +16,7 @@ layout: home
         background-position: center;
         background-repeat: no-repeat;
         color: #eeeeee;
+        background-attachment: fixed;
       }
       .center {
         display: block;
@@ -33,13 +34,17 @@ layout: home
         /* box-shadow: 0px 0px 3px #000000; */
         opacity: 0.95;
       }
-      a {
+      span.a {
         color: #000000;
+        background-color: purple;
       }
-      a:visited {
+      span.a:visited {
         color: #000000;
       }
       span.post-meta {
+        color: #000000;
+      }
+      a.site-title {
         color: #000000;
       }
     </style>
