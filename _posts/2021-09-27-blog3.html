@@ -38,13 +38,22 @@ categories: Git Blog
       .temp {
           text-align: center;
       }
-      a {
+      a, a:visited, a:hover {
           color: #000000;
+          text-decoration: none;
       }
       i {
         background-color: lightgrey;
         padding: 2px 5px 2px 5px;
         border-radius: 5px;
+      }
+      .logo {
+        float: right;
+      }
+      .example {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
     </style>
   </head>
@@ -55,13 +64,17 @@ categories: Git Blog
         <!-- <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1> -->
 
         <h1>What is CSS?</h1>
+        <img class="logo" src="https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8.jpg" alt="" width="300px" height="auto">
         <p>To continue off of the last blog, which was about HTML, I'll just into CSS now. So, what is CSS? CSS stands for <i>Cascading Style Sheets</i> and it is the language used to describe the appearance of a document written in a markup language like HTML. Along with HTML and JavaScript, CSS is a key component of the World Wide Web. With CSS you are able to take a plain HTML page and turn it into something unique.</p>
 
         <h1>What are the main components of CSS?</h1>
         <p>When using CSS with HTML for example you are able to maintain your web pages, and make them uniform with one another. There are two ways you can link CSS with your HTML page. You can either connect your CSS by directly implementing it into under a style tag within the head of your HTML file, or you can create a separate file that would contain all of your CSS templates and code. By doing it the second way you are able to have the same style pop up several times on different web pages, and by doing so it makes for less repeating in coding and also syncing up all the pages to match one another.</p>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" alt="" class="example" width="300px" height="auto">
 
         <h1>How does CSS work?</h1>
         <p>To grasp the fundamentals of CSS, you'll need to first grasp the principles of contemporary HTML. The "box model" is used by web developers to layout pages. A Web page is made up of a succession of boxes, each of which contains a unique element. These boxes are nested within each other.</p>
+
+        <img src="https://blog.templatetoaster.com/wp-content/uploads/2019/08/How-CSS-Works.png" alt="" class="example" width="600px" height="auto">
 
         <p>A page's header, for example, is a box that includes multiple smaller boxes that contain all of the components that make up a header, such as the logo, navigation, social media buttons, shopping cart buttons, and so on. A developer applies styling to the "header" box using CSS. Let's pretend that the developer creates the text inside the header purple, Arial font, and fifteen points high in this example.</p>
 
