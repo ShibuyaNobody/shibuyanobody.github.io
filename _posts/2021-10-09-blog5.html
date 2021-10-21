@@ -7,7 +7,7 @@ categories: Git Blog
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Blog 4</title>
+    <title>Blog 5</title>
     <style>
       body {
         background-color: #eeeeee;
@@ -53,7 +53,22 @@ categories: Git Blog
     <div>
         <img src="https://pbs.twimg.com/media/EnyipKAXMAA8096.png" class="center">
 
-        <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1>
+        <!-- <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1> -->
+
+        <h1>What is Terraform?</h1>
+        <p>HashiCorp produced Terraform, an open-source infrastructure as code software platform. Users create and deliver data center infrastructure using HashiCorp Configuration Language (HCL) or alternatively JSON, a declarative configuration language. "Providers" are how Terraform maintains external resources. HashiCorp has a large range of official providers and can also work with community-developed ones. Terraform providers can be contacted by defining resources or invoking data sources. Terraform utilizes declarative configuration to define the intended final state rather than imperative instructions to provide resources. Terraform will conduct CRUD activities on the user's behalf to achieve the required state after the user runs Terraform on a particular resource. Infrastructure code can be built as modules, allowing for more reusability and maintainability. Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, DigitalOcean, Oracle Cloud Infrastructure, Yandex.Cloud, VMware vSphere, and OpenStack are among the cloud infrastructure providers supported by Terraform.</p>
+
+        <h1>Why Terraform?</h1>
+        <p>Terraform is altering DevOps by redefining the way infrastructure is managed and making DevOps execution quicker and more efficient. Terraform allows you to describe infrastructure in config/code, making it simple to rebuild, update, and track infrastructure changes. Terraform is a high-level infrastructure description. While there are a few alternatives, they are all centered on a single cloud provider. Terraform is the only advanced solution that is entirely platform neutral and supports different services. Terraform allows you to apply a variety of coding concepts, such as source control, automated testing, and so on.</p>
+
+        <h1>Terraform Commands</h1>
+        <p>The terraform command line tool is referred to as "Terraform CLI" throughout the documentation. This nomenclature is frequently used to distinguish it from other Terraform product family components such as Terraform Cloud and Terraform providers, which are developed and published independently of Terraform CLI.</p>
+        <ul>
+          <li><i>terraform init</i> - Creates a working directory using Terraform configuration files. After developing a new Terraform configuration or cloning an old one from version control, execute this command first. It is safe to repeat this command.</li>
+          <li><i>terraform plan</i> - Generates a plan for execution. By default, creating a plan entails reading the current state of any already-existing remote objects to ensure that the Terraform state is current, comparing the current configuration to the prior state and noting any differences, and proposing a set of change actions that, if implemented, should bring the remote objects in line with the configuration.</li>
+          <li><i>terraform apply</i> - This command is used to carry out the activities in a Terraform plan.</li>
+          <li><i>terraform destroy</i> - A quick and easy way to remove any remote objects controlled by a Terraform configuration.</li>
+        </ul>
     </div>
   </body>
 </html>
