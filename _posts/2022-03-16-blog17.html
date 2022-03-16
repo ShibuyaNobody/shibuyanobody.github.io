@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog 17 - tba"
+title: "Blog 17 - Terraform Modules"
 date: 2022-03-16 00:00:00 -0700
 categories: Git Blog
 ---
@@ -60,7 +60,20 @@ categories: Git Blog
     <div>
         <img src="https://pbs.twimg.com/media/EnyipKAXMAA8096.png" class="center">
 
-        <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1>
+        <!-- <h1 class="temp"><a href="https://youtu.be/XqGq2zU-MP0">It's me against the world, so just let me go inside the storm</a></h1> -->
+        
+        <h1>What are Terraform Modules?</h1>
+        <p>A module is a container for a collection of related resources. Modules may be used to construct lightweight abstractions so that your infrastructure can be described in terms of its architecture rather than real things. When you run terraform plan or terraform apply, the.tf files in your working directory come together to form the root module. That module has the ability to call other modules and link them by transferring output values from one module to the input values of another.</p>
+
+        <img class="img" src="https://www.datocms-assets.com/2885/1583259995-terraform-modules.svg" alt="">
+
+        <h1>What does a Terraform Module do?</h1>
+        <p>You may use a Terraform module to construct logical abstraction on top of a resource collection. In other words, a module enables you to aggregate resources and reuse them later, maybe several times. Module blocks can also be used to enforce compliance on other resources, such as databases that utilise encrypted drives. By hard-coding the encryption settings rather than exposing it through variables, you ensure that the disks are encrypted every time the module is used.</p>
+
+        <p>Modules are commonly used to create and manage many resources with a simplified interface. This reduces the amount of duplicate code in a project significantly. Copying and pasting portions of code around while just altering a few parameters might be laborious. For example, instead of establishing each unique resource required for a fully functional VPC, if charged with constructing many VPCs for different environments, a single VPC module may be invoked multiple times.</p>
+
+        <h1>Why should you use Terraform Modules?</h1>
+        <p>There are a lot of reasons why you may want to create and muse Terraform modules. One of the biggest reasons you want to use Terraform Modules is because it allows you to use reusable code, and also cut down the time it takes to normally put together a terraform file. It could a file that had 100+ lines all the way down to about 20 lines. It makes a big difference and allows the user to review and look over the code at a glance, rather than forcing the user to scroll through lines of code.</p>
 
     </div>
   </body>
